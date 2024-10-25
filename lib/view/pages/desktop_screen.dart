@@ -170,6 +170,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
               ),
             ),
             SliverFillRemaining(
+              hasScrollBody: false,
               child: UnconstrainedBox(
                 child: ConstrainedBox(
                   constraints: const BoxConstraints(maxWidth: 1300),
